@@ -1,35 +1,25 @@
 # Derrick Xu
 
-Senior Backend & AI Platform Engineer based in Edmonton, Alberta.
+Senior Java Backend Engineer / Software Architect based in Edmonton, Alberta.
 
-I build backend, platform, payment, financial, and AI-assisted engineering
-systems. Recent work focuses on a practical problem: AI can accelerate delivery,
-but long-running engineering still needs explicit task intent, current code
-context, quality signals, runtime identity, artifact evidence, and fail-closed
-release decisions.
+19 years building backend, payment, financial, and distributed systems. Since 2025 I have been working on a practical problem: how one engineer can lead several AI coding agents on long-running systems without losing control of scope, quality, or release decisions.
 
 ## Public Work
 
-- [QuantEngine Public Edition](https://github.com/Derrickxxm/quantengine-public)  
-  Public-safe runnable slice showing candidate admission, tamper-evident package
-  identity, Paper runtime evidence, independent Replay, reconciliation, negative
-  tests, CI, and fail-closed release verdicts using synthetic data only.
+- [Evidence-Gated AI Delivery](https://github.com/Derrickxxm/evidence-gated-ai-delivery)  
+  Reference implementation of evidence-gated, owner-signed delivery for AI coding agents: task cards with scope budgets, red tests first, self-hashing evidence receipts, a fail-closed merge gate, and owner sign-off bound to the exact commit. 205 tests and 15 scripted attacks, synthetic data only.
 
-- [Agentic Release Gate](https://github.com/Derrickxxm/agentic-release-gate)  
-  Public-safe release-control toolkit showing how reviewed profiles, repository
-  provenance, artifact hashes, schema-versioned manifests, profile trust, and
-  promotion policy become machine-checkable release evidence.
+- [Multi-Agent Delivery Playbook](https://github.com/Derrickxxm/multi-agent-delivery-playbook)  
+  Runnable synthetic demo: an architect agent commits a scope card and red tests, an executor implements within a fixed budget, and a deterministic gate allows a merge only when review, CI, and the owner's sign-off reference the exact commit. One command replays the happy path and seven blocked attacks; 33 tests.
 
-## Engineering Focus
+## How I Work With AI Agents
 
-- AI-assisted delivery control: OGSM, skill-led workflows, narrow deterministic
-  tools, evidence readback, and bounded agent authority.
-- Backend and platform systems: Java, Spring Boot, distributed services, SQL,
-  service governance, high availability, and operational reliability.
-- Financial system correctness: payment platforms, reconciliation, replay,
-  risk controls, stress testing, disaster recovery, and release gates.
+- Separated roles: an architect agent designs, writes red tests, and reviews; executor agents implement only within the card's scope and may not edit tests.
+- Evidence over chat approval: merges need review records, CI, and a signature on the exact commit.
+- Failures are recorded in an append-only ledger and turned into regression tests or stricter gates.
+- Hard decisions go to a multi-model review with anonymized cross-review and a designated dissenter.
 
 ## Links
 
-- LinkedIn: [linkedin.com/in/derrick-xu84](https://www.linkedin.com/in/derrick-xu84)
-- GitHub: [github.com/Derrickxxm](https://github.com/Derrickxxm)
+- LinkedIn: https://www.linkedin.com/in/derrick-xu84
+- Site: https://derrickxxm.github.io
