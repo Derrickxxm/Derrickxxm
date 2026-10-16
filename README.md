@@ -6,6 +6,9 @@ Senior Java Backend Engineer / Software Architect based in Edmonton, Alberta.
 
 ## Public Work
 
+- [In-House Payment Platform](https://github.com/Derrickxxm/inhouse-payment-platform)  
+  Java 21 / Spring Boot 3 clean-room rebuild, on synthetic data, of the kind of in-house payment platform I led in 2016–2018: YAML-only channel onboarding, four service tiers, failover, idempotent debits, crash recovery without double debits, and daily reconciliation. One command runs eight end-to-end scenarios; 181 Java tests in CI. Built by AI agents under a test-first, review-gated process.
+
 - [Evidence-Gated AI Delivery](https://github.com/Derrickxxm/evidence-gated-ai-delivery)  
   Reference implementation of evidence-gated, owner-signed delivery for AI coding agents: task cards with scope budgets, red tests first, self-hashing evidence receipts, a fail-closed merge gate, and owner sign-off bound to the exact commit. 205 tests and 15 scripted attacks, synthetic data only.
 
